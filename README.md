@@ -1,6 +1,6 @@
 # `reset.css`
 
-An unmodified copy of Eric Meyer's [CSS reset](http://meyerweb.com/eric/tools/css/reset/).
+An unmodified copy of Eric Meyer's CSS reset.
 
 ## Install
 
@@ -10,6 +10,6 @@ With [Bower](http://bower.io):
 
 ----
 
-v2.0 | 20110126
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/
 
 License: none (public domain)
