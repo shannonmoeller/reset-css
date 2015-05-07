@@ -1,5 +1,15 @@
-# reset.css
+# `reset.css`
 
-> An unmodified copy of Eric Meyer's CSS reset.
+An unmodified copy of Eric Meyer's [CSS reset](http://meyerweb.com/eric/tools/css/reset/).
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shannonmoeller/reset-css/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+## Install
+
+With [Bower](http://bower.io):
+
+    $ bower install shannonmoeller/reset.css
+
+----
+
+v2.0 | 20110126
+
+License: none (public domain)
