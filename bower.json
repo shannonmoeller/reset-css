@@ -4,5 +4,6 @@
     "description": "An unmodified copy of Eric Meyer's CSS reset.",
     "homepage": "http://meyerweb.com/eric/tools/css/reset/",
     "authors": ["Eric Meyer"],
-    "main": "reset.css"
+    "main": "reset.css",
+    "ignore": ["README.md"]
 }
