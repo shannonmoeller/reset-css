@@ -6,7 +6,7 @@ An unmodified copy of Eric Meyer's CSS reset.
 
 With [Bower](http://bower.io):
 
-    $ bower install shannonmoeller/reset.css
+    $ bower install reset-css
     
 ## Usage
 
