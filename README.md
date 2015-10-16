@@ -25,13 +25,13 @@ CSS:
 Sass:
 
 ```scss
-@import 'bower_components/reset-css/_reset';
+@import 'bower_components/reset-css/dist/scss/_reset';
 ```
 
 Less:
 
 ```less
-@import 'bower_components/reset-css/reset';
+@import 'bower_components/reset-css/dist/less/reset';
 
 // or
 
