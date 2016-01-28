@@ -10,7 +10,7 @@ With [Bower](http://bower.io):
 
 With [NPM](http://npmjs.com):
 
-    $ npm install --save github:shannonmoeller/reset-css
+    $ npm install --save reset-css
 
 ## Usage
 
