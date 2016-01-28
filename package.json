@@ -4,11 +4,5 @@
   "description": "An unmodified copy of Eric Meyer's CSS reset.",
   "homepage": "http://meyerweb.com/eric/tools/css/reset/",
   "authors": ["Eric Meyer"],
-  "license": "PUBLIC DOMAIN (UNLICENSED)",
-  "main": [
-    "reset.css",
-    "reset.less",
-    "_reset.scss"
-  ],
-  "ignore": ["README.md"]
+  "style": "reset.css"
 }

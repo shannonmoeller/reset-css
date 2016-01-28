@@ -7,8 +7,14 @@ An unmodified copy of Eric Meyer's CSS reset.
 With [Bower](http://bower.io):
 
     $ bower install reset-css
-    
+
+With [NPM](http://npmjs.com):
+
+    $ npm install --save github:shannonmoeller/reset-css
+
 ## Usage
+
+### Bower
 
 HTML:
 
@@ -36,6 +42,14 @@ Less:
 // or
 
 @import (inline) 'bower_components/reset-css/reset.css';
+```
+
+### NPM
+
+PostCSS and [postcss-import](https://github.com/postcss/postcss-import):
+
+```css
+@import 'reset-css/reset.css';
 ```
 
 ----
