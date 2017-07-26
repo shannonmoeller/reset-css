@@ -6,7 +6,7 @@
   "authors": [
     "Eric Meyer"
   ],
-  "license": "PUBLIC DOMAIN (UNLICENSED)",
+  "license": "Unlicense",
   "repository": "shannonmoeller/reset-css",
   "style": "reset.css",
   "main": "reset.css",
