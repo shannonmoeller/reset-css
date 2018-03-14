@@ -1,5 +1,5 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
+   v3.0 | 20180413
    License: none (public domain)
 */
 
@@ -27,6 +27,10 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section {
 	display: block;
+}
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+    display: none;
 }
 body {
 	line-height: 1;
