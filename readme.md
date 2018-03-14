@@ -1,4 +1,4 @@
-# `reset.css`
+# reset.css
 
 An [unmodified\*](#changelog) copy of Eric Meyer's [CSS reset](https://meyerweb.com/eric/tools/css/reset/).
 
