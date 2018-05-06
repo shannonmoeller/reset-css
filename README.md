@@ -28,19 +28,23 @@ With [Bower](http://bower.io):
 $ bower install reset-css
 ```
 
-## Usage
+## Usage in Plain HTML and CSS
+
+Copy `reset.css` to a directory, ideally where your CSS is.
 
 HTML:
 
 ```html
-<link rel="stylesheet" href="/assets/reset-css/reset.css" />
+<link rel="stylesheet" href="/your/directory/reset.css" />
 ```
 
 CSS:
 
 ```css
-@import '/assets/reset-css/reset.css';
+@import '/your/directory/reset.css';
 ```
+
+## Usage in Build Tools and Preprocessors
 
 PostCSS and [postcss-import](https://github.com/postcss/postcss-import):
 
@@ -48,7 +52,7 @@ PostCSS and [postcss-import](https://github.com/postcss/postcss-import):
 @import 'reset-css';
 ```
 
-Webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
+webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
 
 ```js
 import reset from 'reset-css';
@@ -57,17 +61,33 @@ import reset from 'reset-css';
 Sass:
 
 ```scss
-@import '/assets/reset-css/_reset';
+@import "./../path/to/node_modules/reset-css/reset.scss";
+
+// or if using webpack
+
+@import "~reset-css/reset.scss";
+
+// or if you copied the reset.scss file to your project
+
+@import '/your/directory/_reset';
 ```
 
 Less:
 
 ```less
-@import '/assets/reset-css/reset';
+@import "./../path/to/node_modules/reset-css/reset.scss";
 
-// or
+// or if using webpack
 
-@import (inline) '/assets/reset-css/reset.css';
+@import "~reset-css/reset.scss";
+
+// or if you copied the reset.scss file to your project
+
+@import '/your/directory/_reset.scss';
+
+// or you can do any of the above using the reset.css file with (inline):
+
+@import (inline) '/your/directory/reset.css';
 ```
 
 ## \*Changelog
