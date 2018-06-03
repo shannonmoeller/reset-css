@@ -1,6 +1,6 @@
 {
   "name": "reset-css",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "An unmodified copy of Eric Meyer's CSS reset.",
   "homepage": "http://meyerweb.com/eric/tools/css/reset/",
   "author": "Eric Meyer",
@@ -10,7 +10,7 @@
   "main": "reset.css",
   "files": [
     "reset.css",
-    "reset.less",
-    "_reset.scss"
+    "sass",
+    "less"
   ]
 }

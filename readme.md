@@ -7,7 +7,9 @@ An [unmodified\*](#changelog) copy of Eric Meyer's [CSS reset](https://meyerweb.
 With curl:
 
 ```command
-$ curl -O "https://unpkg.com/reset-css@3.0.0/reset.css"
+$ curl -O "https://unpkg.com/reset-css@4.0.0/reset.css"
+$ curl -O "https://unpkg.com/reset-css@4.0.0/sass/_reset.sass"
+$ curl -O "https://unpkg.com/reset-css@4.0.0/less/reset.less"
 ```
 
 With [NPM](http://npmjs.com):
@@ -33,41 +35,37 @@ $ bower install reset-css
 HTML:
 
 ```html
-<link rel="stylesheet" href="/assets/reset-css/reset.css" />
+<link rel="stylesheet" href="/path/to/reset-css/reset.css" />
 ```
 
 CSS:
 
 ```css
-@import '/assets/reset-css/reset.css';
+@import '/path/to/reset-css/reset.css';
 ```
 
-PostCSS and [postcss-import](https://github.com/postcss/postcss-import):
+Via PostCSS and [postcss-import](https://github.com/postcss/postcss-import):
 
 ```css
 @import 'reset-css';
 ```
 
-Webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
+Via Webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
 
 ```js
-import reset from 'reset-css';
+import 'reset-css';
 ```
 
-Sass:
+Via Sass:
 
 ```scss
-@import '/assets/reset-css/_reset';
+@import '/path/to/reset-css/sass/reset';
 ```
 
-Less:
+Via Less:
 
 ```less
-@import '/assets/reset-css/reset';
-
-// or
-
-@import (inline) '/assets/reset-css/reset.css';
+@import '/path/to/reset-css/less/reset';
 ```
 
 ## \*Changelog
