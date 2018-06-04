@@ -7,9 +7,9 @@ An [unmodified\*](#changelog) copy of Eric Meyer's [CSS reset](https://meyerweb.
 With curl:
 
 ```command
-$ curl -O "https://unpkg.com/reset-css@4.0.0/reset.css"
-$ curl -O "https://unpkg.com/reset-css@4.0.0/sass/_reset.sass"
-$ curl -O "https://unpkg.com/reset-css@4.0.0/less/reset.less"
+$ curl -O "https://unpkg.com/reset-css@4.0.1/reset.css"
+$ curl -O "https://unpkg.com/reset-css@4.0.1/sass/_reset.scss"
+$ curl -O "https://unpkg.com/reset-css@4.0.1/less/reset.less"
 ```
 
 With [NPM](http://npmjs.com):
