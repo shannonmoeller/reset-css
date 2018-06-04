@@ -50,7 +50,7 @@ Via PostCSS and [postcss-import](https://github.com/postcss/postcss-import):
 @import 'reset-css';
 ```
 
-Via Webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
+Via webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
 
 ```js
 import 'reset-css';
