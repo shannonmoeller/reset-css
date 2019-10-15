@@ -70,10 +70,11 @@ Via Less:
 
 ## \*Changelog
 
-Two changes have been made from the 2011 version, both approved by [Mr. Meyer](https://github.com/meyerweb):
+Three changes have been made from the 2011 version, all approved by [Mr. Meyer](https://github.com/meyerweb):
 
 - Added `main` to list of HTML 5 elements [(#7)](https://github.com/shannonmoeller/reset-css/pull/7#issuecomment-233969617)
 - Added rule to fix `hidden` attribute on HTML 5 elements [(#12)](https://github.com/shannonmoeller/reset-css/issues/12#issuecomment-372821712)
+- Added `menu` to list of lists [(#17)](https://github.com/shannonmoeller/reset-css/pull/17#issuecomment-542340039)
 
 ----
 
