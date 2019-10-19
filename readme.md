@@ -7,15 +7,15 @@ An [unmodified\*](#changelog) copy of Eric Meyer's [CSS reset](https://meyerweb.
 With curl:
 
 ```command
-$ curl -O "https://unpkg.com/reset-css@4.0.1/reset.css"
-$ curl -O "https://unpkg.com/reset-css@4.0.1/sass/_reset.scss"
-$ curl -O "https://unpkg.com/reset-css@4.0.1/less/reset.less"
+$ curl -LO "https://unpkg.com/reset-css/reset.css"
+$ curl -LO "https://unpkg.com/reset-css/less/reset.less"
+$ curl -LO "https://unpkg.com/reset-css/sass/_reset.scss"
 ```
 
 With [NPM](http://npmjs.com):
 
 ```command
-$ npm install --save reset-css
+$ npm install reset-css
 ```
 
 With [Yarn](https://yarnpkg.com):
@@ -56,16 +56,16 @@ Via webpack and [css-loader](https://github.com/webpack-contrib/css-loader):
 import 'reset-css';
 ```
 
-Via Sass:
-
-```scss
-@import '/path/to/reset-css/sass/reset';
-```
-
 Via Less:
 
 ```less
 @import '/path/to/reset-css/less/reset';
+```
+
+Via Sass:
+
+```scss
+@import '/path/to/reset-css/sass/reset';
 ```
 
 ## \*Changelog
